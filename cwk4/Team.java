@@ -50,8 +50,9 @@ public class Team
     public String toStirng()
     {
         String ss = "Teams: \n";
-        for (Champion champion : champions) {
-            ss += champions.toString() + "\n";
+        for (Champion champion : champions) 
+        {
+            ss += champions.toString();
         }
         return ss;
     }
